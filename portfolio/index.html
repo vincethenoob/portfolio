@@ -1,7 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
 <meta charset="UTF-8">
+<script>
+  (function () {
+    try {
+      var saved = localStorage.getItem('theme');
+      var theme = saved || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+      document.documentElement.setAttribute('data-theme', theme);
+    } catch (e) { /* ignore — default dark theme already set in markup */ }
+  })();
+</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Vincent Jay Comendador — Portfolio</title>
 <meta name="description" content="Information Technology student portfolio — skills inventory and career goals.">
@@ -11,6 +20,7 @@
 </head>
 <body>
 <div class="grain"></div>
+<div class="stars" id="stars" aria-hidden="true"></div>
 
 <nav class="site-nav">
   <div class="wrap">
@@ -20,7 +30,13 @@
       <li><a href="skills.html">Skills</a></li>
       <li><a href="goals.html">Career Goals</a></li>
     </ul>
-    <span class="nav-index">IT · CDO, PH</span>
+    <div class="nav-right">
+      <span class="nav-index">IT · BUKIDNON, PH</span>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme" title="Toggle theme">
+        <svg class="icon icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><line x1="12" y1="2" x2="12" y2="4"></line><line x1="12" y1="20" x2="12" y2="22"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="2" y1="12" x2="4" y2="12"></line><line x1="20" y1="12" x2="22" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+        <svg class="icon icon-moon" viewBox="0 0 24 24" fill="currentColor"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+      </button>
+    </div>
   </div>
 </nav>
 
@@ -45,7 +61,7 @@
 
 <section class="section" id="about">
   <div class="wrap">
-    <div class="section-head">
+    <div class="section-head reveal">
       <div>
         <p class="section-eyebrow">Introduction</p>
         <h2>Who I Am</h2>
@@ -56,7 +72,7 @@
       </p>
     </div>
 
-    <div class="panel" style="max-width:760px;">
+    <div class="panel reveal" style="max-width:760px;">
       <p style="color:var(--text-dim); font-size:1rem;">
         I'm an Information Technology undergraduate with a hands-on interest in
         full-stack development, data analysis, and system design. Over the past
@@ -69,7 +85,7 @@
       </p>
     </div>
 
-    <div class="stat-row">
+    <div class="stat-row reveal">
       <div class="stat">
         <div class="num">3+</div>
         <div class="label">Years Studying IT</div>
@@ -92,14 +108,14 @@
 
 <section class="section" id="preview">
   <div class="wrap">
-    <div class="section-head">
+    <div class="section-head reveal">
       <div>
         <p class="section-eyebrow">Explore</p>
         <h2>What's Inside</h2>
       </div>
     </div>
 
-    <div class="skill-grid" style="background:var(--line); border:1px solid var(--line);">
+    <div class="skill-grid reveal" style="background:var(--line); border:1px solid var(--line);">
       <a class="skill-card" href="skills.html" style="text-decoration:none;">
         <div class="skill-top">
           <span class="skill-name">Key Skills Inventory</span>
@@ -136,10 +152,11 @@
       <li><a href="index.html">Home</a></li>
       <li><a href="skills.html">Skills</a></li>
       <li><a href="goals.html">Career Goals</a></li>
-      <li><a href="mailto:alex.rivera.dev@email.com">Contact</a></li>
+      <li><a href="mailto:comendadorvincent8@email.com">Contact</a></li>
     </ul>
   </div>
 </footer>
 
+<script src="script.js" defer></script>
 </body>
 </html>

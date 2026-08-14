@@ -1,33 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
 <meta charset="UTF-8">
+<script>
+  (function () {
+    try {
+      var saved = localStorage.getItem('theme');
+      var theme = saved || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+      document.documentElement.setAttribute('data-theme', theme);
+    } catch (e) { /* ignore — default dark theme already set in markup */ }
+  })();
+</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
 <title>Skills Inventory — Vincent Jay Comendador</title>
-=======
-<title>Skills Inventory — Alex Rivera</title>
->>>>>>> ee451fe8c2c7dd8ace9690fa5c376de4ce99438d
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="grain"></div>
+<div class="stars" id="stars" aria-hidden="true"></div>
 
 <nav class="site-nav">
   <div class="wrap">
-<<<<<<< HEAD
     <a href="index.html" class="brand">VINCENT JAY COMENDADOR<span class="dot">.</span></a>
-=======
-    <a href="index.html" class="brand">ALEX RIVERA<span class="dot">.</span></a>
->>>>>>> ee451fe8c2c7dd8ace9690fa5c376de4ce99438d
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
       <li><a href="skills.html" class="active">Skills</a></li>
       <li><a href="goals.html">Career Goals</a></li>
     </ul>
-    <span class="nav-index">IT · CDO, PH</span>
+    <div class="nav-right">
+      <span class="nav-index">IT · BUKIDNON, PH</span>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme" title="Toggle theme">
+        <svg class="icon icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><line x1="12" y1="2" x2="12" y2="4"></line><line x1="12" y1="20" x2="12" y2="22"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="2" y1="12" x2="4" y2="12"></line><line x1="20" y1="12" x2="22" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+        <svg class="icon icon-moon" viewBox="0 0 24 24" fill="currentColor"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+      </button>
+    </div>
   </div>
 </nav>
 
@@ -55,7 +63,7 @@
   <div class="wrap">
 
     <!-- PROGRAMMING LANGUAGES -->
-    <div class="skill-category">
+    <div class="skill-category reveal">
       <div class="cat-head">
         <h3>Programming Languages</h3>
         <span class="cat-count">04 skills</span>
@@ -64,112 +72,130 @@
 
         <div class="skill-card">
           <div class="skill-top">
-            <span class="skill-name">Python</span>
-            <span class="skill-level-label">Proficient</span>
-          </div>
-          <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
-          <p class="skill-context"><b>Applied in:</b> Capstone Project for data analysis and automation scripts; built a web scraper for research data.</p>
-        </div>
-
-        <div class="skill-card">
-          <div class="skill-top">
             <span class="skill-name">Java</span>
             <span class="skill-level-label">Intermediate</span>
           </div>
           <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
-          <p class="skill-context"><b>Applied in:</b> Object-Oriented Programming coursework; developed a simple student management system.</p>
+          <p class="skill-context"><b>Applied in:</b> Object-Oriented Programming coursework and class projects. <i>(Adjust the level/context if this doesn't match you.)</i></p>
         </div>
 
         <div class="skill-card">
           <div class="skill-top">
-            <span class="skill-name">JavaScript</span>
-            <span class="skill-level-label">Beginner</span>
+            <span class="skill-name">PHP</span>
+            <span class="skill-level-label">Intermediate</span>
           </div>
-          <div class="meter"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></div>
-          <p class="skill-context"><b>Applied in:</b> Small interactive features (form validation, DOM effects) on a personal website project.</p>
+          <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+          <p class="skill-context"><b>Applied in:</b> Server-side scripting for web projects and coursework. <i>(Adjust the level/context if this doesn't match you.)</i></p>
         </div>
 
         <div class="skill-card">
           <div class="skill-top">
-            <span class="skill-name">C#</span>
-            <span class="skill-level-label">Novice</span>
+            <span class="skill-name">Python</span>
+            <span class="skill-level-label">Intermediate</span>
           </div>
-          <div class="meter"><i class="on"></i><i></i><i></i><i></i><i></i></div>
-          <p class="skill-context"><b>Applied in:</b> One introductory desktop-app exercise in a systems programming module.</p>
+          <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+          <p class="skill-context"><b>Applied in:</b> Scripting and coursework projects. <i>(Adjust the level/context if this doesn't match you.)</i></p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-top">
+            <span class="skill-name">Web Design (HTML/CSS)</span>
+            <span class="skill-level-label">Expert</span>
+          </div>
+          <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
+          <p class="skill-context"><b>Applied in:</b> Designing and building full websites — layout, styling, and responsive design across multiple projects, including this portfolio.</p>
         </div>
 
       </div>
     </div>
 
-    <!-- FRAMEWORKS & TOOLS -->
-    <div class="skill-category">
+    <!-- DEVELOPMENT TOOLS -->
+    <div class="skill-category reveal">
       <div class="cat-head">
-        <h3>Frameworks &amp; Tools</h3>
-        <span class="cat-count">03 skills</span>
+        <h3>Development Tools</h3>
+        <span class="cat-count">04 skills</span>
       </div>
       <div class="skill-grid">
 
         <div class="skill-card">
           <div class="skill-top">
-            <span class="skill-name">React</span>
-            <span class="skill-level-label">Beginner</span>
+            <span class="skill-name">Visual Studio Code</span>
+            <span class="skill-level-label">Proficient</span>
           </div>
-          <div class="meter"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></div>
-          <p class="skill-context"><b>Applied in:</b> Built a small web app during internship to manage event registrations.</p>
+          <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+          <p class="skill-context"><b>Applied in:</b> Primary editor for all coding and web design work. <i>(Adjust the level/context if this doesn't match you.)</i></p>
         </div>
 
         <div class="skill-card">
           <div class="skill-top">
-            <span class="skill-name">Django</span>
+            <span class="skill-name">Git</span>
             <span class="skill-level-label">Intermediate</span>
           </div>
           <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
-          <p class="skill-context"><b>Applied in:</b> Developed a blog platform with authentication features for coursework.</p>
+          <p class="skill-context"><b>Applied in:</b> Version control for coursework and personal projects, including this portfolio.</p>
         </div>
 
         <div class="skill-card">
           <div class="skill-top">
-            <span class="skill-name">Flutter</span>
+            <span class="skill-name">IntelliJ IDEA</span>
+            <span class="skill-level-label">Intermediate</span>
+          </div>
+          <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+          <p class="skill-context"><b>Applied in:</b> Java development for coursework projects. <i>(Adjust the level/context if this doesn't match you.)</i></p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-top">
+            <span class="skill-name">Android Studio</span>
             <span class="skill-level-label">Beginner</span>
           </div>
           <div class="meter"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></div>
-          <p class="skill-context"><b>Applied in:</b> Experimented with mobile UI design in a personal project.</p>
+          <p class="skill-context"><b>Applied in:</b> Introductory mobile app exercises. <i>(Adjust the level/context if this doesn't match you.)</i></p>
         </div>
 
       </div>
     </div>
 
     <!-- DATABASE MANAGEMENT -->
-    <div class="skill-category">
+    <div class="skill-category reveal">
       <div class="cat-head">
         <h3>Database Management</h3>
-        <span class="cat-count">02 skills</span>
+        <span class="cat-count">03 skills</span>
       </div>
       <div class="skill-grid">
 
         <div class="skill-card">
           <div class="skill-top">
-            <span class="skill-name">SQL (MySQL / PostgreSQL)</span>
+            <span class="skill-name">MySQL</span>
             <span class="skill-level-label">Intermediate</span>
           </div>
           <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
-          <p class="skill-context"><b>Applied in:</b> Designed and queried the schema behind the Django blog platform and a coursework inventory system.</p>
+          <p class="skill-context"><b>Applied in:</b> Designing and querying databases for PHP-based web projects. <i>(Adjust the level/context if this doesn't match you.)</i></p>
         </div>
 
         <div class="skill-card">
           <div class="skill-top">
-            <span class="skill-name">MongoDB / Firebase</span>
+            <span class="skill-name">XAMPP</span>
+            <span class="skill-level-label">Intermediate</span>
+          </div>
+          <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+          <p class="skill-context"><b>Applied in:</b> Local server environment for testing PHP/MySQL web projects. <i>(Adjust the level/context if this doesn't match you.)</i></p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-top">
+            <span class="skill-name">Supabase</span>
             <span class="skill-level-label">Beginner</span>
           </div>
           <div class="meter"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></div>
-          <p class="skill-context"><b>Applied in:</b> Used Firebase for auth and storage in a personal Flutter prototype.</p>
+          <p class="skill-context"><b>Applied in:</b> Backend/auth setup for a personal project. <i>(Adjust the level/context if this doesn't match you.)</i></p>
         </div>
 
       </div>
     </div>
 
     <!-- NETWORKING & SECURITY -->
-    <div class="skill-category">
+    <div class="skill-category reveal">
       <div class="cat-head">
         <h3>Networking &amp; Security</h3>
         <span class="cat-count">02 skills</span>
@@ -198,21 +224,12 @@
     </div>
 
     <!-- CLOUD & DEVOPS -->
-    <div class="skill-category">
+    <div class="skill-category reveal">
       <div class="cat-head">
         <h3>Cloud &amp; DevOps</h3>
-        <span class="cat-count">02 skills</span>
+        <span class="cat-count">01 skill</span>
       </div>
       <div class="skill-grid">
-
-        <div class="skill-card">
-          <div class="skill-top">
-            <span class="skill-name">Git &amp; GitHub</span>
-            <span class="skill-level-label">Proficient</span>
-          </div>
-          <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
-          <p class="skill-context"><b>Applied in:</b> Version-controlled every group project since second year; manage branches and PRs for the internship codebase.</p>
-        </div>
 
         <div class="skill-card">
           <div class="skill-top">
@@ -227,7 +244,7 @@
     </div>
 
     <!-- SOFTWARE ENGINEERING PRACTICES -->
-    <div class="skill-category">
+    <div class="skill-category reveal">
       <div class="cat-head">
         <h3>Software Engineering Practices</h3>
         <span class="cat-count">02 skills</span>
@@ -249,14 +266,14 @@
             <span class="skill-level-label">Proficient</span>
           </div>
           <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
-          <p class="skill-context"><b>Applied in:</b> Wrote setup guides and API notes for the internship's internal tools so teammates could onboard without asking me directly.</p>
+          <p class="skill-context"><b>Applied in:</b> Wrote setup guides and notes for teammates on group projects.</p>
         </div>
 
       </div>
     </div>
 
     <!-- COLLABORATION PLATFORMS -->
-    <div class="skill-category">
+    <div class="skill-category reveal">
       <div class="cat-head">
         <h3>Collaboration Platforms</h3>
         <span class="cat-count">02 skills</span>
@@ -275,17 +292,17 @@
         <div class="skill-card">
           <div class="skill-top">
             <span class="skill-name">Slack / Microsoft Teams</span>
-            <span class="skill-level-label">Proficient</span>
+            <span class="skill-level-label">Intermediate</span>
           </div>
-          <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
-          <p class="skill-context"><b>Applied in:</b> Daily standups and async updates with my internship team.</p>
+          <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+          <p class="skill-context"><b>Applied in:</b> Group project coordination and updates.</p>
         </div>
 
       </div>
     </div>
 
     <!-- SOFT SKILLS -->
-    <div class="skill-category">
+    <div class="skill-category reveal">
       <div class="cat-head">
         <h3>Soft Skills</h3>
         <span class="cat-count">03 skills</span>
@@ -307,7 +324,7 @@
             <span class="skill-level-label">Proficient</span>
           </div>
           <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
-          <p class="skill-context"><b>Applied in:</b> Debugged production issues on the fly during my internship, often with incomplete documentation.</p>
+          <p class="skill-context"><b>Applied in:</b> Debugging and troubleshooting across coursework and personal projects.</p>
         </div>
 
         <div class="skill-card">
@@ -316,7 +333,7 @@
             <span class="skill-level-label">Intermediate</span>
           </div>
           <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
-          <p class="skill-context"><b>Applied in:</b> Led a four-person team as project manager for our capstone, splitting work and tracking milestones.</p>
+          <p class="skill-context"><b>Applied in:</b> Led a team as project manager for our capstone, splitting work and tracking milestones.</p>
         </div>
 
       </div>
@@ -327,7 +344,7 @@
 
 <section class="section" id="gaps" style="padding-top:0;">
   <div class="wrap">
-    <div class="section-head">
+    <div class="section-head reveal">
       <div>
         <p class="section-eyebrow">Honest Assessment</p>
         <h2>Skill Gaps</h2>
@@ -338,7 +355,7 @@
       </p>
     </div>
 
-    <div class="gap-list">
+    <div class="gap-list reveal">
       <div class="gap-item">
         <div class="gap-tag">Cloud &amp; DevOps</div>
         <h4>Cloud Computing (AWS / Azure)</h4>
@@ -364,22 +381,18 @@
 <footer class="site-footer">
   <div class="wrap">
     <div>
-<<<<<<< HEAD
       <div class="footer-brand">VINCENT JAY COMENDADOR</div>
-      <div class="footer-meta">comendadorvincent8@email.com · bukidnon, PH</div>
-=======
-      <div class="footer-brand">ALEX RIVERA</div>
-      <div class="footer-meta">alex.rivera.dev@email.com · Cagayan de Oro, PH</div>
->>>>>>> ee451fe8c2c7dd8ace9690fa5c376de4ce99438d
+      <div class="footer-meta">comendadorvincent8@email.com · Bukidnon, PH</div>
     </div>
     <ul class="footer-links">
       <li><a href="index.html">Home</a></li>
       <li><a href="skills.html">Skills</a></li>
       <li><a href="goals.html">Career Goals</a></li>
-      <li><a href="mailto:alex.rivera.dev@email.com">Contact</a></li>
+      <li><a href="mailto:comendadorvincent8@email.com">Contact</a></li>
     </ul>
   </div>
 </footer>
 
+<script src="script.js" defer></script>
 </body>
 </html>
