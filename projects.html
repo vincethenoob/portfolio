@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<script>
+  (function () {
+    try {
+      var saved = localStorage.getItem('theme');
+      var theme = saved || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+      document.documentElement.setAttribute('data-theme', theme);
+    } catch (e) { /* ignore — default dark theme already set in markup */ }
+  })();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Vincent Jay Comendador</title>
+<meta name="description" content="Selected academic and personal IT projects by Vincent Jay Comendador.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grain"></div>
+<div class="stars" id="stars" aria-hidden="true"></div>
+<nav class="site-nav" id="siteNav">
+  <div class="wrap">
+    <a href="index.html" class="brand">VINCENT JAY COMENDADOR<span class="dot">.</span></a>
+    <ul class="nav-links" id="primaryNav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html" class="active">Projects</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="gaps.html">Gap Analysis</a></li>
+      <li><a href="goals.html">Career Goals</a></li>
+    </ul>
+    <div class="nav-right">
+      <span class="nav-index">IT · BUKIDNON, PH</span>
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primaryNav">
+        <span></span><span></span><span></span>
+      </button>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme" title="Toggle theme">
+        <svg class="icon icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><line x1="12" y1="2" x2="12" y2="4"></line><line x1="12" y1="20" x2="12" y2="22"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="2" y1="12" x2="4" y2="12"></line><line x1="20" y1="12" x2="22" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+        <svg class="icon icon-moon" viewBox="0 0 24 24" fill="currentColor"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+      </button>
+    </div>
+  </div>
+</nav>
+<header class="hero page-hero">
+  <div class="wrap">
+    <p class="hero-eyebrow">Page 02</p>
+    <h1>PROJECTS<br>PORTFOLIO</h1>
+    <p class="hero-lede">Selected academic and personal work documented as short case studies: what I was trying to solve, what I used, what I contributed, what came out of it, and where the evidence belongs.</p>
+  </div>
+</header>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div><p class="section-eyebrow">Selected Work</p><h2>Project Case Studies</h2></div>
+      <p class="section-note">Everything below is based on work already referenced elsewhere in this portfolio. Unavailable repository or media links are marked clearly instead of being invented.</p>
+    </div>
+
+    <article class="project-case reveal">
+      <div class="project-case-head">
+        <div><span class="project-index">01</span><p class="project-type">Personal / Academic Automation</p><h3>Python Research Scraper</h3></div>
+        <span class="project-role">Role · Developer</span>
+      </div>
+      <div class="project-details">
+        <div><h4>Problem Statement</h4><p>Research gathering involved repetitive manual collection. The project explored using a script to pull research material together instead of doing the same collection process entirely by hand.</p></div>
+        <div><h4>Technologies / Tools</h4><p>Python.</p></div>
+        <div><h4>Key Contributions</h4><p>Built the scraper logic, organized the collected research into a usable result, and used the project to practice automation-oriented problem solving.</p></div>
+        <div><h4>Outcome &amp; Impact</h4><p>Created a working automation that reduced the amount of manual research gathering required and demonstrated how a small script can remove repetitive work.</p></div>
+        <div class="evidence-block"><h4>Evidence</h4><p>Repository or captured output was not included in the supplied portfolio files.</p><span class="evidence-placeholder">Add GitHub link / screenshot / sample output</span></div>
+      </div>
+    </article>
+
+    <article class="project-case reveal">
+      <div class="project-case-head">
+        <div><span class="project-index">02</span><p class="project-type">Academic Software Project</p><h3>Java Student Management System</h3></div>
+        <span class="project-role">Role · Developer</span>
+      </div>
+      <div class="project-details">
+        <div><h4>Problem Statement</h4><p>Build a structured Java application around student-management workflows as part of hands-on software development practice.</p></div>
+        <div><h4>Technologies / Tools</h4><p>Java; Java development environment used for coursework.</p></div>
+        <div><h4>Key Contributions</h4><p>Implemented the Java application and applied object-oriented programming concepts to organize the system into maintainable program logic.</p></div>
+        <div><h4>Outcome &amp; Impact</h4><p>Completed a working student-management project that strengthened practical Java and object-oriented programming experience beyond isolated exercises.</p></div>
+        <div class="evidence-block"><h4>Evidence</h4><p>The supplied portfolio mentions the project but does not include a repository, screenshot, or demo URL.</p><span class="evidence-placeholder">Add GitHub link / screenshots / demo video</span></div>
+      </div>
+    </article>
+
+    <article class="project-case reveal">
+      <div class="project-case-head">
+        <div><span class="project-index">03</span><p class="project-type">Academic Team Project</p><h3>Capstone Team Project</h3></div>
+        <span class="project-role">Role · Project Manager</span>
+      </div>
+      <div class="project-details">
+        <div><h4>Problem Statement</h4><p>The project required a four-person student team to coordinate a capstone deliverable across the semester and keep work moving through defined milestones.</p></div>
+        <div><h4>Technologies / Tools</h4><p>Agile / Scrum practices, two-week sprints, and Trello for task tracking.</p></div>
+        <div><h4>Key Contributions</h4><p>Led the team as project manager, split work among members, tracked milestones and deadlines, and coordinated deliverables throughout the project.</p></div>
+        <div><h4>Outcome &amp; Impact</h4><p>The team completed its capstone work and presented findings to faculty, providing practical experience in leadership, communication, sprint planning, and project coordination.</p></div>
+        <div class="evidence-block"><h4>Evidence</h4><p>No capstone title, repository, screenshots, or presentation link was included in the supplied files.</p><span class="evidence-placeholder">Add project title / screenshots / presentation / repository</span></div>
+      </div>
+    </article>
+
+    <article class="project-case reveal">
+      <div class="project-case-head">
+        <div><span class="project-index">04</span><p class="project-type">Cloud Practice</p><h3>AWS S3 Static Website Deployment</h3></div>
+        <span class="project-role">Role · Developer / Learner</span>
+      </div>
+      <div class="project-details">
+        <div><h4>Problem Statement</h4><p>Move beyond purely local development by getting a static website hosted through a real cloud service.</p></div>
+        <div><h4>Technologies / Tools</h4><p>AWS S3 using the AWS free-tier sandbox.</p></div>
+        <div><h4>Key Contributions</h4><p>Configured and used S3 to host a static website as a first hands-on cloud deployment exercise.</p></div>
+        <div><h4>Outcome &amp; Impact</h4><p>Gained practical exposure to cloud hosting and established a baseline for the broader AWS and production-deployment skills identified in the Gap Analysis.</p></div>
+        <div class="evidence-block"><h4>Evidence</h4><p>The supplied portfolio confirms the S3 hosting exercise but does not include the live URL or deployment screenshot.</p><span class="evidence-placeholder">Add live link / AWS screenshot / repository</span></div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="section project-next">
+  <div class="wrap"><div class="panel reveal project-note"><div><p class="section-eyebrow">Next Upgrade</p><h2>Turn evidence slots into proof.</h2><p>Before sending this portfolio to employers, replace each placeholder with the strongest available repository, screenshot, demo, or sample output.</p></div><a class="btn btn-ghost" href="skills.html">View Skills →</a></div></div>
+</section>
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <div class="footer-brand">VINCENT JAY COMENDADOR</div>
+      <div class="footer-meta">comendadorvincent8@email.com · Bukidnon, PH</div>
+    </div>
+    <ul class="footer-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="gaps.html">Gap Analysis</a></li>
+      <li><a href="goals.html">Career Goals</a></li>
+      <li><a href="mailto:comendadorvincent8@email.com">Contact</a></li>
+    </ul>
+  </div>
+</footer>
+<script src="script.js" defer></script>
+</body>
+</html>

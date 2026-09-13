@@ -13,7 +13,7 @@
 </script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Vincent Jay Comendador — Portfolio</title>
-<meta name="description" content="Information Technology student portfolio — skills inventory and career goals.">
+<meta name="description" content="Information Technology student portfolio featuring projects, skills, gap analysis, and career goals.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
@@ -22,16 +22,21 @@
 <div class="grain"></div>
 <div class="stars" id="stars" aria-hidden="true"></div>
 
-<nav class="site-nav">
+<nav class="site-nav" id="siteNav">
   <div class="wrap">
     <a href="index.html" class="brand">VINCENT JAY COMENDADOR<span class="dot">.</span></a>
-    <ul class="nav-links">
+    <ul class="nav-links" id="primaryNav">
       <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
       <li><a href="skills.html">Skills</a></li>
+      <li><a href="gaps.html">Gap Analysis</a></li>
       <li><a href="goals.html">Career Goals</a></li>
     </ul>
     <div class="nav-right">
       <span class="nav-index">IT · BUKIDNON, PH</span>
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primaryNav">
+        <span></span><span></span><span></span>
+      </button>
       <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme" title="Toggle theme">
         <svg class="icon icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><line x1="12" y1="2" x2="12" y2="4"></line><line x1="12" y1="20" x2="12" y2="22"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="2" y1="12" x2="4" y2="12"></line><line x1="20" y1="12" x2="22" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
         <svg class="icon icon-moon" viewBox="0 0 24 24" fill="currentColor"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
@@ -52,8 +57,8 @@
       pick them up.
     </p>
     <div class="hero-actions">
-      <a href="skills.html" class="btn btn-solid">View Skills Inventory</a>
-      <a href="goals.html" class="btn btn-ghost">Career Goals →</a>
+      <a href="projects.html" class="btn btn-solid">View My Projects</a>
+      <a href="gaps.html" class="btn btn-ghost">Gap Analysis →</a>
     </div>
   </div>
   <div class="scroll-cue">SCROLL</div>
@@ -67,8 +72,8 @@
         <h2>Who I Am</h2>
       </div>
       <p class="section-note">
-        A short version of my story — the long version lives on the Skills and
-        Career Goals pages.
+        A short version of my story — the project evidence, skills, gap analysis,
+        and career roadmap are linked throughout the site.
       </p>
     </div>
 
@@ -99,8 +104,8 @@
         <div class="label">Languages &amp; Frameworks</div>
       </div>
       <div class="stat">
-        <div class="num">no</div>
-        <div class="label">Internship yet</div>
+        <div class="num">4</div>
+        <div class="label">Person Capstone Team</div>
       </div>
     </div>
   </div>
@@ -116,27 +121,21 @@
     </div>
 
     <div class="skill-grid reveal" style="background:var(--line); border:1px solid var(--line);">
+      <a class="skill-card" href="projects.html" style="text-decoration:none;">
+        <div class="skill-top"><span class="skill-name">Projects Portfolio</span><span class="skill-level-label">01</span></div>
+        <p class="skill-context">Case studies covering the problem, tools, my contributions, outcomes, and evidence for academic and personal work.</p>
+      </a>
       <a class="skill-card" href="skills.html" style="text-decoration:none;">
-        <div class="skill-top">
-          <span class="skill-name">Key Skills Inventory</span>
-          <span class="skill-level-label">01</span>
-        </div>
-        <p class="skill-context">
-          Programming, frameworks, databases, networking, cloud, and soft
-          skills — each rated on a 5-level scale with real project context,
-          plus an honest list of gaps I'm working on.
-        </p>
+        <div class="skill-top"><span class="skill-name">Key Skills Inventory</span><span class="skill-level-label">02</span></div>
+        <p class="skill-context">Programming, development tools, databases, networking, cloud, engineering practices, and soft skills with project context.</p>
+      </a>
+      <a class="skill-card" href="gaps.html" style="text-decoration:none;">
+        <div class="skill-top"><span class="skill-name">Gap Analysis</span><span class="skill-level-label">03</span></div>
+        <p class="skill-context">A five-part comparison between my current abilities and the skills required for the backend and technical roles I am targeting.</p>
       </a>
       <a class="skill-card" href="goals.html" style="text-decoration:none;">
-        <div class="skill-top">
-          <span class="skill-name">Career Goals Portfolio</span>
-          <span class="skill-level-label">02</span>
-        </div>
-        <p class="skill-context">
-          Short, mid, and long-term goals, the industries I'm aiming at, a
-          concrete skill development plan, and what actually drives these
-          choices.
-        </p>
+        <div class="skill-top"><span class="skill-name">Career Goals Portfolio</span><span class="skill-level-label">04</span></div>
+        <p class="skill-context">Short, mid, and long-term goals, preferred industries, a development roadmap, and the values behind those choices.</p>
       </a>
     </div>
   </div>
@@ -150,7 +149,9 @@
     </div>
     <ul class="footer-links">
       <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
       <li><a href="skills.html">Skills</a></li>
+      <li><a href="gaps.html">Gap Analysis</a></li>
       <li><a href="goals.html">Career Goals</a></li>
       <li><a href="mailto:comendadorvincent8@email.com">Contact</a></li>
     </ul>

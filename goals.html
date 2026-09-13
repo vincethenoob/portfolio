@@ -21,16 +21,21 @@
 <div class="grain"></div>
 <div class="stars" id="stars" aria-hidden="true"></div>
 
-<nav class="site-nav">
+<nav class="site-nav" id="siteNav">
   <div class="wrap">
     <a href="index.html" class="brand">VINCENT JAY COMENDADOR<span class="dot">.</span></a>
-    <ul class="nav-links">
+    <ul class="nav-links" id="primaryNav">
       <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
       <li><a href="skills.html">Skills</a></li>
+      <li><a href="gaps.html">Gap Analysis</a></li>
       <li><a href="goals.html" class="active">Career Goals</a></li>
     </ul>
     <div class="nav-right">
       <span class="nav-index">IT · BUKIDNON, PH</span>
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primaryNav">
+        <span></span><span></span><span></span>
+      </button>
       <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme" title="Toggle theme">
         <svg class="icon icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><line x1="12" y1="2" x2="12" y2="4"></line><line x1="12" y1="20" x2="12" y2="22"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="2" y1="12" x2="4" y2="12"></line><line x1="20" y1="12" x2="22" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
         <svg class="icon icon-moon" viewBox="0 0 24 24" fill="currentColor"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
@@ -41,7 +46,7 @@
 
 <header class="hero" style="min-height:auto; padding:80px 0 60px;">
   <div class="wrap">
-    <p class="hero-eyebrow">Page 03</p>
+    <p class="hero-eyebrow">Page 05</p>
     <h1 style="font-size:clamp(2.4rem,7vw,4.6rem);">CAREER GOALS<br>PORTFOLIO</h1>
     <p class="hero-lede">
       A timeline of where I'm headed, the industries I want to work in, the
@@ -225,12 +230,14 @@
 <footer class="site-footer">
   <div class="wrap">
     <div>
-      <div class="footer-brand">Vincent Jay Comendador</div>
+      <div class="footer-brand">VINCENT JAY COMENDADOR</div>
       <div class="footer-meta">comendadorvincent8@email.com · Bukidnon, PH</div>
     </div>
     <ul class="footer-links">
       <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
       <li><a href="skills.html">Skills</a></li>
+      <li><a href="gaps.html">Gap Analysis</a></li>
       <li><a href="goals.html">Career Goals</a></li>
       <li><a href="mailto:comendadorvincent8@email.com">Contact</a></li>
     </ul>

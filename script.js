@@ -24,6 +24,35 @@
   }
 
   /* ============================================================
+     MOBILE NAVIGATION
+     ============================================================ */
+  var siteNav = document.getElementById('siteNav');
+  var navToggle = document.getElementById('navToggle');
+  var primaryNav = document.getElementById('primaryNav');
+
+  function closeNav() {
+    if (!siteNav || !navToggle) return;
+    siteNav.classList.remove('nav-open');
+    navToggle.setAttribute('aria-expanded', 'false');
+  }
+
+  if (siteNav && navToggle && primaryNav) {
+    navToggle.addEventListener('click', function () {
+      var open = siteNav.classList.toggle('nav-open');
+      navToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    primaryNav.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', closeNav);
+    });
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape') closeNav();
+    });
+    window.addEventListener('resize', function () {
+      if (window.innerWidth > 900) closeNav();
+    }, { passive: true });
+  }
+
+  /* ============================================================
      STARFIELD (dark mode only, skipped if reduced motion)
      ============================================================ */
   var starsContainer = document.getElementById('stars');

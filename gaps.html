@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<script>
+  (function () {
+    try {
+      var saved = localStorage.getItem('theme');
+      var theme = saved || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+      document.documentElement.setAttribute('data-theme', theme);
+    } catch (e) { /* ignore — default dark theme already set in markup */ }
+  })();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gap Analysis — Vincent Jay Comendador</title>
+<meta name="description" content="Career skill gap analysis and improvement roadmap for Vincent Jay Comendador.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grain"></div><div class="stars" id="stars" aria-hidden="true"></div>
+<nav class="site-nav" id="siteNav">
+  <div class="wrap">
+    <a href="index.html" class="brand">VINCENT JAY COMENDADOR<span class="dot">.</span></a>
+    <ul class="nav-links" id="primaryNav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="gaps.html" class="active">Gap Analysis</a></li>
+      <li><a href="goals.html">Career Goals</a></li>
+    </ul>
+    <div class="nav-right">
+      <span class="nav-index">IT · BUKIDNON, PH</span>
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primaryNav">
+        <span></span><span></span><span></span>
+      </button>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme" title="Toggle theme">
+        <svg class="icon icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><line x1="12" y1="2" x2="12" y2="4"></line><line x1="12" y1="20" x2="12" y2="22"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="2" y1="12" x2="4" y2="12"></line><line x1="20" y1="12" x2="22" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+        <svg class="icon icon-moon" viewBox="0 0 24 24" fill="currentColor"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+      </button>
+    </div>
+  </div>
+</nav>
+<header class="hero page-hero">
+  <div class="wrap"><p class="hero-eyebrow">Page 04</p><h1>GAP ANALYSIS<br>&amp; ROADMAP</h1><p class="hero-lede">A comparison between where my skills are now and what the backend, cloud-aware, security-conscious roles I am targeting will require from me next.</p></div>
+</header>
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal"><div><p class="section-eyebrow">Current vs Required</p><h2>Five Priority Gaps</h2></div><p class="section-note">Each gap connects a current limitation to a practical next action instead of treating improvement as a vague goal.</p></div>
+    <article class="gap-analysis-card reveal">
+      <div class="gap-analysis-head"><span class="gap-number">01</span><div><span class="gap-domain">Cloud & DevOps</span><h3>Cloud Computing (AWS / Azure)</h3></div></div>
+      <div class="gap-analysis-grid">
+        <div><h4>Current State</h4><p>Current exposure is sandbox-level. AWS experience currently includes using S3 to host a static site.</p></div>
+        <div><h4>Career Requirement</h4><p>Backend and infrastructure-oriented roles require stronger cloud deployment, service configuration, and infrastructure knowledge.</p></div>
+        <div><h4>Gap</h4><p>The current experience proves initial exposure, but not yet independent work with production-style cloud systems.</p></div>
+        <div class="gap-plan"><h4>Action Plan</h4><p>Study through 2026, complete AWS Cloud Practitioner or an equivalent foundation, then work toward an associate-level certification and deploy additional personal projects in the cloud.</p></div>
+      </div>
+    </article><article class="gap-analysis-card reveal">
+      <div class="gap-analysis-head"><span class="gap-number">02</span><div><span class="gap-domain">Security</span><h3>Cybersecurity Fundamentals</h3></div></div>
+      <div class="gap-analysis-grid">
+        <div><h4>Current State</h4><p>Current experience is introductory: common attack-vector coursework, with no hands-on security project yet.</p></div>
+        <div><h4>Career Requirement</h4><p>Fintech, healthcare IT, and backend roles need secure system design, basic hardening practices, and an understanding of common application risks.</p></div>
+        <div><h4>Gap</h4><p>Theory is ahead of hands-on practice, especially for applying security controls to a real application.</p></div>
+        <div class="gap-plan"><h4>Action Plan</h4><p>Complete an introductory cybersecurity course or Security+ preparation, practice in lab environments, and apply basic hardening to personal deployed projects.</p></div>
+      </div>
+    </article><article class="gap-analysis-card reveal">
+      <div class="gap-analysis-head"><span class="gap-number">03</span><div><span class="gap-domain">Backend</span><h3>Backend &amp; API Design</h3></div></div>
+      <div class="gap-analysis-grid">
+        <div><h4>Current State</h4><p>Current experience includes PHP/MySQL web work and a stated interest in full-stack development and system design.</p></div>
+        <div><h4>Career Requirement</h4><p>The target junior backend path requires stronger schema design, API design, validation, maintainability, and end-to-end service ownership.</p></div>
+        <div><h4>Gap</h4><p>Current project experience needs to progress from implementing features to deliberately designing the backend interface and data model.</p></div>
+        <div class="gap-plan"><h4>Action Plan</h4><p>Build a larger personal backend project focused on schema and API decisions, then document those decisions as part of the project case study. Use Django/API study as a future learning direction rather than claiming current Django proficiency.</p></div>
+      </div>
+    </article><article class="gap-analysis-card reveal">
+      <div class="gap-analysis-head"><span class="gap-number">04</span><div><span class="gap-domain">Deployment</span><h3>Production Deployment &amp; Monitoring</h3></div></div>
+      <div class="gap-analysis-grid">
+        <div><h4>Current State</h4><p>The current cloud example is a static site on S3; the career plan explicitly identifies production deployment and monitoring as a skill still to build.</p></div>
+        <div><h4>Career Requirement</h4><p>A junior developer should be able to deploy a small application, inspect logs or health signals, troubleshoot issues, and understand the path from local code to a running service.</p></div>
+        <div><h4>Gap</h4><p>Static hosting does not yet demonstrate deployment and monitoring of a small production-style application.</p></div>
+        <div class="gap-plan"><h4>Action Plan</h4><p>Deploy one personal application beyond static hosting, add basic logging and monitoring, document the deployment steps, and include the live system as evidence in the Projects page.</p></div>
+      </div>
+    </article><article class="gap-analysis-card reveal">
+      <div class="gap-analysis-head"><span class="gap-number">05</span><div><span class="gap-domain">Communication</span><h3>Multimedia &amp; Presentation</h3></div></div>
+      <div class="gap-analysis-grid">
+        <div><h4>Current State</h4><p>The current skills inventory describes basic Canva/photo editing and strong interest in explaining technical work clearly to non-technical audiences.</p></div>
+        <div><h4>Career Requirement</h4><p>Technical work often needs concise demos, readable presentations, and simple visual communication for stakeholders who are not developers.</p></div>
+        <div><h4>Gap</h4><p>The communication foundation is present, but advanced multimedia editing and presentation polish are still limited.</p></div>
+        <div class="gap-plan"><h4>Action Plan</h4><p>Practice basic video editing and cleaner slide design through project demos, technical walkthroughs, or student-organization work; use those outputs as portfolio evidence.</p></div>
+      </div>
+    </article>
+  </div>
+</section>
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal"><div><p class="section-eyebrow">Roadmap</p><h2>Improvement Sequence</h2></div><p class="section-note">The order is designed so later work produces stronger project evidence, not just more course completion.</p></div>
+    <div class="roadmap-grid reveal">
+      <div class="roadmap-step"><span>01 · Foundation</span><h3>Cloud + Security Basics</h3><p>Strengthen AWS fundamentals and complete structured security study.</p></div>
+      <div class="roadmap-step"><span>02 · Build</span><h3>Backend/API Project</h3><p>Create one larger project where schema and API decisions are deliberate and documented.</p></div>
+      <div class="roadmap-step"><span>03 · Ship</span><h3>Deploy + Monitor</h3><p>Run the project outside the local machine, add basic operational visibility, and capture deployment evidence.</p></div>
+      <div class="roadmap-step"><span>04 · Communicate</span><h3>Present the Work</h3><p>Turn the finished system into a clear case study, screenshots, and a concise technical demo.</p></div>
+    </div>
+  </div>
+</section>
+<section class="section" style="padding-top:0;"><div class="wrap"><div class="panel reveal project-note"><div><p class="section-eyebrow">Career Alignment</p><h2>Every gap should end in visible evidence.</h2><p>The goal is not only to learn a topic; it is to turn the new skill into something that can be demonstrated through a deployed project, repository, documentation, or presentation.</p></div><a href="goals.html" class="btn btn-solid">Career Goals →</a></div></div></section>
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <div class="footer-brand">VINCENT JAY COMENDADOR</div>
+      <div class="footer-meta">comendadorvincent8@email.com · Bukidnon, PH</div>
+    </div>
+    <ul class="footer-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="gaps.html">Gap Analysis</a></li>
+      <li><a href="goals.html">Career Goals</a></li>
+      <li><a href="mailto:comendadorvincent8@email.com">Contact</a></li>
+    </ul>
+  </div>
+</footer>
+<script src="script.js" defer></script>
+</body>
+</html>

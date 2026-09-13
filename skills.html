@@ -21,16 +21,21 @@
 <div class="grain"></div>
 <div class="stars" id="stars" aria-hidden="true"></div>
 
-<nav class="site-nav">
+<nav class="site-nav" id="siteNav">
   <div class="wrap">
     <a href="index.html" class="brand">VINCENT JAY COMENDADOR<span class="dot">.</span></a>
-    <ul class="nav-links">
+    <ul class="nav-links" id="primaryNav">
       <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
       <li><a href="skills.html" class="active">Skills</a></li>
+      <li><a href="gaps.html">Gap Analysis</a></li>
       <li><a href="goals.html">Career Goals</a></li>
     </ul>
     <div class="nav-right">
       <span class="nav-index">IT · BUKIDNON, PH</span>
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primaryNav">
+        <span></span><span></span><span></span>
+      </button>
       <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme" title="Toggle theme">
         <svg class="icon icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><line x1="12" y1="2" x2="12" y2="4"></line><line x1="12" y1="20" x2="12" y2="22"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="2" y1="12" x2="4" y2="12"></line><line x1="20" y1="12" x2="22" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
         <svg class="icon icon-moon" viewBox="0 0 24 24" fill="currentColor"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
@@ -41,12 +46,12 @@
 
 <header class="hero" style="min-height:auto; padding:80px 0 60px;">
   <div class="wrap">
-    <p class="hero-eyebrow">Page 02</p>
+    <p class="hero-eyebrow">Page 03</p>
     <h1 style="font-size:clamp(2.4rem,7vw,4.6rem);">KEY SKILLS<br>INVENTORY</h1>
     <p class="hero-lede">
       Every skill below is rated on a 5-level scale — Novice, Beginner,
       Intermediate, Proficient, Expert — and tied to where I actually used it:
-      coursework, personal projects, or my internship. The meter reads like a
+      coursework, personal projects, or team projects. The meter reads like a
       signal bar: more filled segments, more independence with that skill.
     </p>
     <div class="legend">
@@ -76,7 +81,7 @@
             <span class="skill-level-label">Intermediate</span>
           </div>
           <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
-          <p class="skill-context"><b>Applied in:</b> Object-Oriented Programming coursework and class projects. <i>(Adjust the level/context if this doesn't match you.)</i></p>
+          <p class="skill-context"><b>Applied in:</b> Object-Oriented Programming coursework and class projects.</p>
         </div>
 
         <div class="skill-card">
@@ -85,7 +90,7 @@
             <span class="skill-level-label">Intermediate</span>
           </div>
           <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
-          <p class="skill-context"><b>Applied in:</b> Server-side scripting for web projects and coursework. <i>(Adjust the level/context if this doesn't match you.)</i></p>
+          <p class="skill-context"><b>Applied in:</b> Server-side scripting for web projects and coursework.</p>
         </div>
 
         <div class="skill-card">
@@ -94,7 +99,7 @@
             <span class="skill-level-label">Intermediate</span>
           </div>
           <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
-          <p class="skill-context"><b>Applied in:</b> Scripting and coursework projects. <i>(Adjust the level/context if this doesn't match you.)</i></p>
+          <p class="skill-context"><b>Applied in:</b> Scripting and coursework projects.</p>
         </div>
 
         <div class="skill-card">
@@ -123,7 +128,7 @@
             <span class="skill-level-label">Proficient</span>
           </div>
           <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
-          <p class="skill-context"><b>Applied in:</b> Primary editor for all coding and web design work. <i>(Adjust the level/context if this doesn't match you.)</i></p>
+          <p class="skill-context"><b>Applied in:</b> Primary editor for all coding and web design work.</p>
         </div>
 
         <div class="skill-card">
@@ -141,7 +146,7 @@
             <span class="skill-level-label">Intermediate</span>
           </div>
           <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
-          <p class="skill-context"><b>Applied in:</b> Java development for coursework projects. <i>(Adjust the level/context if this doesn't match you.)</i></p>
+          <p class="skill-context"><b>Applied in:</b> Java development for coursework projects.</p>
         </div>
 
         <div class="skill-card">
@@ -150,7 +155,7 @@
             <span class="skill-level-label">Beginner</span>
           </div>
           <div class="meter"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></div>
-          <p class="skill-context"><b>Applied in:</b> Introductory mobile app exercises. <i>(Adjust the level/context if this doesn't match you.)</i></p>
+          <p class="skill-context"><b>Applied in:</b> Introductory mobile app exercises.</p>
         </div>
 
       </div>
@@ -170,7 +175,7 @@
             <span class="skill-level-label">Intermediate</span>
           </div>
           <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
-          <p class="skill-context"><b>Applied in:</b> Designing and querying databases for PHP-based web projects. <i>(Adjust the level/context if this doesn't match you.)</i></p>
+          <p class="skill-context"><b>Applied in:</b> Designing and querying databases for PHP-based web projects.</p>
         </div>
 
         <div class="skill-card">
@@ -179,7 +184,7 @@
             <span class="skill-level-label">Intermediate</span>
           </div>
           <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
-          <p class="skill-context"><b>Applied in:</b> Local server environment for testing PHP/MySQL web projects. <i>(Adjust the level/context if this doesn't match you.)</i></p>
+          <p class="skill-context"><b>Applied in:</b> Local server environment for testing PHP/MySQL web projects.</p>
         </div>
 
         <div class="skill-card">
@@ -188,7 +193,7 @@
             <span class="skill-level-label">Beginner</span>
           </div>
           <div class="meter"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></div>
-          <p class="skill-context"><b>Applied in:</b> Backend/auth setup for a personal project. <i>(Adjust the level/context if this doesn't match you.)</i></p>
+          <p class="skill-context"><b>Applied in:</b> Backend/auth setup for a personal project.</p>
         </div>
 
       </div>
@@ -346,34 +351,18 @@
   <div class="wrap">
     <div class="section-head reveal">
       <div>
-        <p class="section-eyebrow">Honest Assessment</p>
-        <h2>Skill Gaps</h2>
+        <p class="section-eyebrow">Next Step</p>
+        <h2>From Skills to Gaps</h2>
       </div>
-      <p class="section-note">
-        Areas I need to build up — each one connects directly to the goals on
-        the next page.
-      </p>
+      <p class="section-note">The full Gap Analysis compares these current skills with what my target roles require.</p>
     </div>
-
-    <div class="gap-list reveal">
-      <div class="gap-item">
-        <div class="gap-tag">Cloud &amp; DevOps</div>
-        <h4>Cloud Computing (AWS / Azure)</h4>
-        <p>Only sandbox-level exposure so far. Needed for the backend and
-        infrastructure roles I'm targeting short-term.</p>
+    <div class="panel reveal gap-cta">
+      <div>
+        <p class="gap-cta-kicker">Five priority development areas</p>
+        <h3>See the roadmap for what I need to strengthen next.</h3>
+        <p>Cloud, security, backend/API design, production deployment and monitoring, and multimedia/presentation skills are mapped to concrete action plans.</p>
       </div>
-      <div class="gap-item">
-        <div class="gap-tag">Security</div>
-        <h4>Cybersecurity Fundamentals</h4>
-        <p>No hands-on project yet. Relevant to almost every IT role I'm
-        considering, especially in fintech.</p>
-      </div>
-      <div class="gap-item">
-        <div class="gap-tag">Multimedia</div>
-        <h4>Advanced Multimedia Editing</h4>
-        <p>Basic Canva/photo editing only. Would help with presenting
-        technical work to non-technical stakeholders.</p>
-      </div>
+      <a href="gaps.html" class="btn btn-solid">View Full Gap Analysis</a>
     </div>
   </div>
 </section>
@@ -386,7 +375,9 @@
     </div>
     <ul class="footer-links">
       <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
       <li><a href="skills.html">Skills</a></li>
+      <li><a href="gaps.html">Gap Analysis</a></li>
       <li><a href="goals.html">Career Goals</a></li>
       <li><a href="mailto:comendadorvincent8@email.com">Contact</a></li>
     </ul>
