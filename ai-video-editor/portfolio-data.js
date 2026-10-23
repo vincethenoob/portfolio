@@ -3,7 +3,7 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "fitness-animation-ad",
     "title": "Fitness Animation Ad",
-    "category": "AI UGC",
+    "category": "AI VSL UGC type",
     "subcategory": "Fitness Ad",
     "description": "A vertical animated fitness spot with a stylized character, bold captions, and a direct-response pace.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1HtetAIVXd5F2l2sgTpUU_UZup-3AE49f&sz=w1200",
@@ -12,7 +12,7 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "creator-product-testimonial",
     "title": "Creator-Style Product Ad",
-    "category": "AI UGC",
+    "category": "AI VSL UGC type",
     "subcategory": "Product Testimonial",
     "description": "A vertical creator-style product spot built around an at-home testimonial and clear product moments.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1kPu-IGWjpgSYho6mE04j0XPgnki8Xkg9&sz=w1200",
@@ -21,7 +21,7 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "clinic-testimonial-ad",
     "title": "Clinic Testimonial Ad",
-    "category": "AI UGC",
+    "category": "AI VSL UGC type",
     "subcategory": "Healthcare",
     "description": "A testimonial-led vertical ad staged in a clinic, with a conversational presenter and care setting.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1Uuzv6Vpo6SPrL7pBJg6E8JJiltdFs2lY&sz=w1200",
@@ -147,8 +147,8 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "1bn3rcu1f6stu8kxzc3rpsput9o7eqm6w",
     "title": "VSL — pr2 final",
-    "category": "VSLs",
-    "subcategory": "",
+    "category": "AI VSL UGC type",
+    "subcategory": "VSL",
     "description": "A video sales letter sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1BN3RCu1F6Stu8KxZc3RPspUt9O7Eqm6w&sz=w1200",
     "embed": "https://drive.google.com/file/d/1BN3RCu1F6Stu8KxZc3RPspUt9O7Eqm6w/preview"
@@ -156,8 +156,8 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "1mqi1yb7dbafswmpddq8stdwdp5gjvmty",
     "title": "VSL — glutes",
-    "category": "VSLs",
-    "subcategory": "",
+    "category": "AI VSL UGC type",
+    "subcategory": "VSL",
     "description": "A video sales letter sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1MQI1yB7dbafswmPddQ8StDwdP5GJVmtY&sz=w1200",
     "embed": "https://drive.google.com/file/d/1MQI1yB7dbafswmPddQ8StDwdP5GJVmtY/preview"
@@ -165,8 +165,8 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "1tabx5ddeappiivtgfnanqm-q9hy5vo6r",
     "title": "VSL — 1009",
-    "category": "VSLs",
-    "subcategory": "",
+    "category": "AI VSL UGC type",
+    "subcategory": "VSL",
     "description": "A video sales letter sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1taBX5DDeAppiIVtgFnanqM-Q9hy5vo6R&sz=w1200",
     "embed": "https://drive.google.com/file/d/1taBX5DDeAppiIVtgFnanqM-Q9hy5vo6R/preview"
@@ -174,8 +174,8 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "1-uixb8hmzjohsjqmby1pcvgctrey77jj",
     "title": "VSL — LV_test2",
-    "category": "VSLs",
-    "subcategory": "",
+    "category": "AI VSL UGC type",
+    "subcategory": "VSL",
     "description": "A video sales letter sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1_uIxb8HmzJohSjqMBY1PcVgCTrEY77Jj&sz=w1200",
     "embed": "https://drive.google.com/file/d/1_uIxb8HmzJohSjqMBY1PcVgCTrEY77Jj/preview"
@@ -183,8 +183,8 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "1tg222l6pv3e4bsjjl4f8lfvufosq5dyy",
     "title": "VSL — LV_test3",
-    "category": "VSLs",
-    "subcategory": "",
+    "category": "AI VSL UGC type",
+    "subcategory": "VSL",
     "description": "A video sales letter sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1tG222L6Pv3e4Bsjjl4F8LfvUfOsQ5DYY&sz=w1200",
     "embed": "https://drive.google.com/file/d/1tG222L6Pv3e4Bsjjl4F8LfvUfOsQ5DYY/preview"
@@ -192,8 +192,8 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "1du9bmmeoo9z05vl9xqp4ly4t50-zpbsz",
     "title": "VSL — 3rd",
-    "category": "VSLs",
-    "subcategory": "",
+    "category": "AI VSL UGC type",
+    "subcategory": "VSL",
     "description": "A video sales letter sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1Du9BMmEOo9z05vl9Xqp4lY4t50_ZPBsz&sz=w1200",
     "embed": "https://drive.google.com/file/d/1Du9BMmEOo9z05vl9Xqp4lY4t50_ZPBsz/preview"
@@ -201,8 +201,8 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "1epg34vy1whyitfcmkhefe3cg8iyqceu9",
     "title": "VSL — cleannutra 2nd",
-    "category": "VSLs",
-    "subcategory": "",
+    "category": "AI VSL UGC type",
+    "subcategory": "VSL",
     "description": "A video sales letter sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1ePg34vY1WHYiTfCmKhEfe3cg8iyqcEU9&sz=w1200",
     "embed": "https://drive.google.com/file/d/1ePg34vY1WHYiTfCmKhEfe3cg8iyqcEU9/preview"
