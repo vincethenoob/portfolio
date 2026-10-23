@@ -56,3 +56,8 @@
 @keyframes showcase-right{from{transform:translateX(-50%)}to{transform:translateX(0)}}
 @media(max-width:560px){.showcase-loop-group{gap:11px;padding-right:11px}}
 @media(prefers-reduced-motion:reduce){.showcase-track{overflow-x:auto;touch-action:auto;cursor:auto;mask-image:none}.showcase-track-inner{animation:none!important}.showcase-loop-copy{display:none}}
+
+
+/* Keep the complete vertical video visible inside the popup. */
+.dialog-media-frame{width:min(100%,360px,calc(61vh * 9 / 16));aspect-ratio:9/16;max-height:61vh}
+.dialog-media{position:absolute;inset:0;width:100%;height:100%;max-width:none;max-height:none;aspect-ratio:auto;display:block;margin:0;border:0;background:#000;object-fit:contain}
