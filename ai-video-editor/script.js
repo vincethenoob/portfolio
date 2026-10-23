@@ -54,7 +54,7 @@
   }
 
   const showcaseRows = document.getElementById('showcase-rows');
-  const showcaseOrder = ['AI VSL UGC type', 'Animation', 'Different Head, Same Dialogue'];
+  const showcaseOrder = ['AI VSL UGC type', 'Animation', 'Different Head, Same Dialogue', 'Other Creators’ Work'];
   if (showcaseRows) {
     const showcaseCategories = showcaseOrder.filter(cat => projects.some(p => p.category === cat));
     showcaseRows.innerHTML = showcaseCategories.map((category, rowIndex) => {
