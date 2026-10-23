@@ -41,7 +41,8 @@
     const p = projects.find(project => project.id === id);
     if (!p) return;
     const media = p.video ? `<video class="dialog-media" src="${escapeHtml(p.video)}" controls playsinline preload="metadata"></video>` : (p.embed ? `<iframe class="dialog-media" src="${escapeHtml(p.embed)}" title="${escapeHtml(p.title)} video" allow="fullscreen; picture-in-picture" loading="lazy"></iframe>` : '');
-    dialog.querySelector('.dialog-content').innerHTML = `${media}<p class="eyebrow">${escapeHtml(p.category || 'PROJECT')}</p><h2>${escapeHtml(p.title)}</h2><p>${escapeHtml(p.description || '')}</p>`;
+    const directLink = p.embed ? `<a class="contact-link watch-drive-link" href="${escapeHtml(p.embed)}" target="_blank" rel="noopener noreferrer">Watch in Google Drive ↗</a>` : '';
+    dialog.querySelector('.dialog-content').innerHTML = `${media}${directLink}<p class="eyebrow">${escapeHtml(p.category || 'PROJECT')}</p><h2>${escapeHtml(p.title)}</h2><p>${escapeHtml(p.description || '')}</p>`;
     dialog.showModal();
   }
 
