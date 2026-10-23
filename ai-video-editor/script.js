@@ -8,9 +8,12 @@
   function openProject(id) {
     const p = projects.find(project => project.id === id);
     if (!p) return;
-    const media = p.video ? `<div class="dialog-media-frame"><video class="dialog-media" src="${escapeHtml(p.video)}" controls playsinline preload="metadata"></video></div>` : (p.embed ? `<div class="dialog-media-frame"><iframe class="dialog-media" src="${escapeHtml(p.embed)}" title="${escapeHtml(p.title)} video" allow="autoplay; fullscreen; picture-in-picture; encrypted-media" loading="eager"></iframe></div>` : '');
-    const credit = p.credit ? `<p class="project-credit">Reference only · <strong>by other creators</strong>. This work was not created by Vincent.</p>` : '';
-    dialog.querySelector('.dialog-content').innerHTML = `${media}${credit}<p class="eyebrow">${escapeHtml(p.category || 'PROJECT')}</p><h2>${escapeHtml(p.title)}</h2><p>${escapeHtml(p.description || '')}</p>`;
+    const videoUrl = p.embed || p.video;
+    if (videoUrl) {
+      window.open(videoUrl, '_blank', 'noopener,noreferrer');
+      return;
+    }
+    dialog.querySelector('.dialog-content').innerHTML = `<p class="eyebrow">${escapeHtml(p.category || 'PROJECT')}</p><h2>${escapeHtml(p.title)}</h2><p>${escapeHtml(p.description || '')}</p>`;
     dialog.showModal();
   }
 
