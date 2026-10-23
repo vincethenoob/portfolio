@@ -40,3 +40,17 @@
 .showcase-card:focus-visible{outline-offset:-4px}
 @media(max-width:800px){.showcase{padding-top:58px;padding-bottom:70px}.showcase-heading{padding-top:37px}}
 @media(max-width:560px){.showcase{padding-top:46px;padding-bottom:55px}.showcase-heading{align-items:flex-start;gap:15px;flex-direction:column;padding-bottom:23px}.showcase-heading>p{margin:0}.showcase-row-heading h3{font-size:13px}.showcase-track{gap:11px}.showcase-card{flex-basis:62vw;max-width:225px}.showcase-row-heading>div:first-child{gap:8px}}
+
+/* Seamless auto-moving video loops; row direction alternates by category */
+.showcase-track{overflow:hidden;scroll-snap-type:none;scrollbar-width:none;padding:0;mask-image:linear-gradient(90deg,transparent 0%,#000 3%,#000 97%,transparent 100%)}
+.showcase-track::-webkit-scrollbar{display:none}
+.showcase-track-inner{display:flex;width:max-content;will-change:transform;animation-duration:var(--marquee-duration,36s);animation-timing-function:linear;animation-iteration-count:infinite}
+.showcase-track[data-direction="left"] .showcase-track-inner{animation-name:showcase-left}
+.showcase-track[data-direction="right"] .showcase-track-inner{animation-name:showcase-right}
+.showcase-loop-group{display:flex;flex:none;gap:14px;padding-right:14px}
+.showcase-loop-copy{pointer-events:none}
+.showcase-track:hover .showcase-track-inner,.showcase-track:focus-within .showcase-track-inner{animation-play-state:paused}
+@keyframes showcase-left{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes showcase-right{from{transform:translateX(-50%)}to{transform:translateX(0)}}
+@media(max-width:560px){.showcase-loop-group{gap:11px;padding-right:11px}}
+@media(prefers-reduced-motion:reduce){.showcase-track{overflow-x:auto;mask-image:none}.showcase-track-inner{animation:none!important}.showcase-loop-copy{display:none}}
