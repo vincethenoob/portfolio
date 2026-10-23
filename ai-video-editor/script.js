@@ -21,25 +21,30 @@
     const showcaseCategories = showcaseOrder.filter(cat => projects.some(p => p.category === cat));
     showcaseRows.innerHTML = showcaseCategories.map((category, rowIndex) => {
       const items = projects.filter(p => p.category === category);
-      const rowId = `showcase-track-${rowIndex}`;
+      const direction = rowIndex % 2 === 0 ? 'left' : 'right';
+      const duration = Math.max(24, items.length * 5.2);
+      const renderCards = (interactive) => items.map(p => {
+        const open = interactive ? 'button' : 'div';
+        const attrs = interactive
+          ? `type="button" data-project="${escapeHtml(p.id)}" aria-label="Watch ${escapeHtml(p.title)}"`
+          : 'aria-hidden="true"';
+        return `<${open} class="showcase-card" ${attrs}>
+          <img src="${escapeHtml(p.thumbnail || '')}" alt="" loading="lazy">
+          <span class="showcase-shade"></span><span class="showcase-play" aria-hidden="true">▶</span>
+          <span class="showcase-card-meta"><small>${escapeHtml(p.subcategory || category)}</small><strong>${escapeHtml(p.title)}</strong></span>
+        </${open}>`;
+      }).join('');
       return `<section class="showcase-row" aria-label="${escapeHtml(category)} videos">
-        <div class="showcase-row-heading"><div><h3>${escapeHtml(category)}</h3><span>${items.length} videos</span></div>
-          <div class="showcase-controls"><button type="button" data-scroll="-1" aria-label="Scroll ${escapeHtml(category)} videos left">←</button><button type="button" data-scroll="1" aria-label="Scroll ${escapeHtml(category)} videos right">→</button></div>
-        </div>
-        <div class="showcase-track" id="${rowId}" tabindex="0" aria-label="${escapeHtml(category)} video slideshow">
-          ${items.map(p => `<button class="showcase-card" type="button" data-project="${escapeHtml(p.id)}" aria-label="Watch ${escapeHtml(p.title)}">
-            <img src="${escapeHtml(p.thumbnail || '')}" alt="" loading="lazy">
-            <span class="showcase-shade"></span><span class="showcase-play" aria-hidden="true">▶</span>
-            <span class="showcase-card-meta"><small>${escapeHtml(p.subcategory || category)}</small><strong>${escapeHtml(p.title)}</strong></span>
-          </button>`).join('')}
+        <div class="showcase-row-heading"><div><h3>${escapeHtml(category)}</h3><span>${items.length} videos</span></div></div>
+        <div class="showcase-track" aria-label="${escapeHtml(category)} continuously moving video slideshow" style="--marquee-duration:${duration}s" data-direction="${direction}">
+          <div class="showcase-track-inner">
+            <div class="showcase-loop-group">${renderCards(true)}</div>
+            <div class="showcase-loop-group showcase-loop-copy" aria-hidden="true" inert>${renderCards(false)}</div>
+          </div>
         </div>
       </section>`;
     }).join('');
-    showcaseRows.querySelectorAll('.showcase-controls button').forEach(btn => btn.addEventListener('click', () => {
-      const track = btn.closest('.showcase-row').querySelector('.showcase-track');
-      track.scrollBy({left: Number(btn.dataset.scroll) * Math.min(track.clientWidth * 0.8, 720), behavior: 'smooth'});
-    }));
-    showcaseRows.querySelectorAll('.showcase-card').forEach(btn => btn.addEventListener('click', () => openProject(btn.dataset.project)));
+    showcaseRows.querySelectorAll('.showcase-card[data-project]').forEach(btn => btn.addEventListener('click', () => openProject(btn.dataset.project)));
   }
 
   const contact = window.CONTACT_DETAILS || {};
