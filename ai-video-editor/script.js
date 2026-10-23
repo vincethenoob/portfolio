@@ -9,6 +9,12 @@
 
   const escapeHtml = (value) => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const categories = [...new Set(projects.map(p => p.category).filter(Boolean))];
+  const categoryFolders = Array.isArray(window.PORTFOLIO_CATEGORIES) ? window.PORTFOLIO_CATEGORIES : [];
+  const folderLinks = document.getElementById('category-folders');
+  const workTotal = document.getElementById('work-total');
+  const referenceCount = projects.filter(p => p.credit).length;
+  if (workTotal) workTotal.textContent = `${projects.length - referenceCount} VIDEO SAMPLES · ${referenceCount} REFERENCE EXAMPLES`;
+  if (folderLinks) folderLinks.innerHTML = categoryFolders.map(item => `<a class="folder-link" href="${escapeHtml(item.folder)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.name)} <span aria-hidden="true">↗</span></a>`).join('');
   let activeCategory = 'All';
 
   function render() {
@@ -42,11 +48,15 @@
     if (!p) return;
     const media = p.video ? `<video class="dialog-media" src="${escapeHtml(p.video)}" controls playsinline preload="metadata"></video>` : (p.embed ? `<iframe class="dialog-media" src="${escapeHtml(p.embed)}" title="${escapeHtml(p.title)} video" allow="fullscreen; picture-in-picture" loading="lazy"></iframe>` : '');
     const directLink = p.embed ? `<a class="contact-link watch-drive-link" href="${escapeHtml(p.embed)}" target="_blank" rel="noopener noreferrer">Watch in Google Drive ↗</a>` : '';
-    dialog.querySelector('.dialog-content').innerHTML = `${media}${directLink}<p class="eyebrow">${escapeHtml(p.category || 'PROJECT')}</p><h2>${escapeHtml(p.title)}</h2><p>${escapeHtml(p.description || '')}</p>`;
+    const credit = p.credit ? `<p class="project-credit">Reference only · <strong>by other creators</strong>. This work was not created by Vincent.</p>` : '';
+    dialog.querySelector('.dialog-content').innerHTML = `${media}${directLink}${credit}<p class="eyebrow">${escapeHtml(p.category || 'PROJECT')}</p><h2>${escapeHtml(p.title)}</h2><p>${escapeHtml(p.description || '')}</p>`;
     dialog.showModal();
   }
 
-  filters.innerHTML = ['All', ...categories].map(cat => `<button class="filter-button${cat === activeCategory ? ' active' : ''}" data-category="${escapeHtml(cat)}">${escapeHtml(cat)}</button>`).join('');
+  filters.innerHTML = ['All', ...categories].map(cat => {
+    const count = cat === 'All' ? projects.length : projects.filter(p => p.category === cat).length;
+    return `<button class="filter-button${cat === activeCategory ? ' active' : ''}" data-category="${escapeHtml(cat)}" aria-pressed="${cat === activeCategory}">${escapeHtml(cat)}<span>${count}</span></button>`;
+  }).join('');
   filters.querySelectorAll('button').forEach(btn => btn.addEventListener('click', () => {
     activeCategory = btn.dataset.category;
     filters.querySelectorAll('button').forEach(b => b.classList.toggle('active', b === btn));
