@@ -8,6 +8,10 @@
   function openProject(id) {
     const p = projects.find(project => project.id === id);
     if (!p) return;
+    if (p.category === 'AI VSL UGC type' && p.embed) {
+      window.open(p.embed, '_blank', 'noopener,noreferrer');
+      return;
+    }
     const media = p.video ? `<video class="dialog-media" src="${escapeHtml(p.video)}" controls playsinline preload="metadata"></video>` : (p.embed ? `<iframe class="dialog-media" src="${escapeHtml(p.embed)}" title="${escapeHtml(p.title)} video" allow="fullscreen; picture-in-picture" loading="lazy"></iframe>` : '');
     const directLink = p.embed ? `<a class="contact-link watch-drive-link" href="${escapeHtml(p.embed)}" target="_blank" rel="noopener noreferrer">Watch in Google Drive ↗</a>` : '';
     const credit = p.credit ? `<p class="project-credit">Reference only · <strong>by other creators</strong>. This work was not created by Vincent.</p>` : '';
