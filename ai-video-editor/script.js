@@ -53,6 +53,33 @@
     dialog.showModal();
   }
 
+  const showcaseRows = document.getElementById('showcase-rows');
+  const showcaseOrder = ['AI VSL UGC type', 'Animation', 'Different Head, Same Dialogue'];
+  if (showcaseRows) {
+    const showcaseCategories = showcaseOrder.filter(cat => projects.some(p => p.category === cat));
+    showcaseRows.innerHTML = showcaseCategories.map((category, rowIndex) => {
+      const items = projects.filter(p => p.category === category);
+      const rowId = `showcase-track-${rowIndex}`;
+      return `<section class="showcase-row" aria-label="${escapeHtml(category)} videos">
+        <div class="showcase-row-heading"><div><h3>${escapeHtml(category)}</h3><span>${items.length} videos</span></div>
+          <div class="showcase-controls"><button type="button" data-scroll="-1" aria-label="Scroll ${escapeHtml(category)} videos left">←</button><button type="button" data-scroll="1" aria-label="Scroll ${escapeHtml(category)} videos right">→</button></div>
+        </div>
+        <div class="showcase-track" id="${rowId}" tabindex="0" aria-label="${escapeHtml(category)} video slideshow">
+          ${items.map(p => `<button class="showcase-card" type="button" data-project="${escapeHtml(p.id)}" aria-label="Watch ${escapeHtml(p.title)}">
+            <img src="${escapeHtml(p.thumbnail || '')}" alt="" loading="lazy">
+            <span class="showcase-shade"></span><span class="showcase-play" aria-hidden="true">▶</span>
+            <span class="showcase-card-meta"><small>${escapeHtml(p.subcategory || category)}</small><strong>${escapeHtml(p.title)}</strong></span>
+          </button>`).join('')}
+        </div>
+      </section>`;
+    }).join('');
+    showcaseRows.querySelectorAll('.showcase-controls button').forEach(btn => btn.addEventListener('click', () => {
+      const track = btn.closest('.showcase-row').querySelector('.showcase-track');
+      track.scrollBy({left: Number(btn.dataset.scroll) * Math.min(track.clientWidth * 0.8, 720), behavior: 'smooth'});
+    }));
+    showcaseRows.querySelectorAll('.showcase-card').forEach(btn => btn.addEventListener('click', () => openProject(btn.dataset.project)));
+  }
+
   filters.innerHTML = ['All', ...categories].map(cat => {
     const count = cat === 'All' ? projects.length : projects.filter(p => p.category === cat).length;
     return `<button class="filter-button${cat === activeCategory ? ' active' : ''}" data-category="${escapeHtml(cat)}" aria-pressed="${cat === activeCategory}">${escapeHtml(cat)}<span>${count}</span></button>`;
