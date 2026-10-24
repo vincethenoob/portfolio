@@ -210,7 +210,7 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "1x-ua29-7i-qv-5vzeno7cg2h2-zxbfja",
     "title": "Target 2",
-    "category": "Other Creators’ Work",
+    "category": "My other works",
     "subcategory": "Reference · by other creators",
     "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1X_UA29_7i_Qv_5VzenO7CG2H2-ZxbFjA&sz=w1200",
@@ -220,7 +220,7 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "138dgemrelvpqfniwiletj-mrda8ysg5f",
     "title": "Costco 1",
-    "category": "Other Creators’ Work",
+    "category": "My other works",
     "subcategory": "Reference · by other creators",
     "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
     "thumbnail": "https://drive.google.com/thumbnail?id=138DgemreLvpqFNIWilEtj-mRDa8YsG5F&sz=w1200",
@@ -230,7 +230,7 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "1ihbjapyejw2pmhnx5sxiffvggpd-fzlc",
     "title": "Sephora 3",
-    "category": "Other Creators’ Work",
+    "category": "My other works",
     "subcategory": "Reference · by other creators",
     "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1IhbjAPyejw2pmhNX5SXIFFvGGPd_FZlc&sz=w1200",
@@ -240,7 +240,7 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "14frdprantqxjw8cvz9sx-lfwsseavtql",
     "title": "Target 1",
-    "category": "Other Creators’ Work",
+    "category": "My other works",
     "subcategory": "Reference · by other creators",
     "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
     "thumbnail": "https://drive.google.com/thumbnail?id=14fRdpRaNTqxjW8cVZ9sx-LfWSsEAvtqL&sz=w1200",
@@ -250,7 +250,7 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "1ioxhxehu9t68kzrmcfdrouqkwgogoenv",
     "title": "Sephora 2",
-    "category": "Other Creators’ Work",
+    "category": "My other works",
     "subcategory": "Reference · by other creators",
     "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1IoxHxEHu9t68kzrmCfDrouqKwGoGOeNV&sz=w1200",
@@ -260,7 +260,7 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "1qt6lysiltdd7mnsdrgusznckjd6yl6ap",
     "title": "Sephora 4",
-    "category": "Other Creators’ Work",
+    "category": "My other works",
     "subcategory": "Reference · by other creators",
     "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1qt6lysIlTDd7mnsDRGUsZnCkJd6yL6Ap&sz=w1200",
@@ -270,7 +270,7 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "1cs1sqd6x-svd5c8gmj3dwzbmzrndxx1l",
     "title": "Target 3",
-    "category": "Other Creators’ Work",
+    "category": "My other works",
     "subcategory": "Reference · by other creators",
     "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1Cs1Sqd6X-SvD5C8gmj3DWZbMzRNDxX1L&sz=w1200",
@@ -280,7 +280,7 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "12s3tsvssw3wik-u-tbmlwhokrdduk6bh",
     "title": "Home 1",
-    "category": "Other Creators’ Work",
+    "category": "My other works",
     "subcategory": "Reference · by other creators",
     "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
     "thumbnail": "https://drive.google.com/thumbnail?id=12s3TsvsSw3WiK-U-tBmlwHoKRDduK6bh&sz=w1200",
@@ -290,7 +290,7 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "1k2qp9ij79zarpiv6qtcjmmlzx8eclonu",
     "title": "CVS 1",
-    "category": "Other Creators’ Work",
+    "category": "My other works",
     "subcategory": "Reference · by other creators",
     "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1k2qp9ij79ZarPiv6qTcjMMlZX8EcloNu&sz=w1200",
@@ -300,7 +300,7 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "1bbs6tem7iqb6vjf04mhvfbgay0ilkhcw",
     "title": "Target 4",
-    "category": "Other Creators’ Work",
+    "category": "My other works",
     "subcategory": "Reference · by other creators",
     "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1BBS6Tem7iQB6vjf04MhVfbgAY0iLkhcw&sz=w1200",
@@ -310,7 +310,7 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "1dkmmvlzljz2kimeyg7975ydlcyjheta3",
     "title": "Sephora 1",
-    "category": "Other Creators’ Work",
+    "category": "My other works",
     "subcategory": "Reference · by other creators",
     "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1dkmmVlZLJz2kimEyg7975YdLCyjHetA3&sz=w1200",
@@ -320,7 +320,7 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "1bvk-v5wjixh4xc8ppkf75du8g2leopag",
     "title": "Jiyu",
-    "category": "Other Creators’ Work",
+    "category": "My other works",
     "subcategory": "Reference · by other creators",
     "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1BVK_v5WJIXH4Xc8PpKF75DU8G2LEoPAg&sz=w1200",
@@ -330,7 +330,7 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "1amkr4pt9uffgrlbnqa8asuogif-jxgv",
     "title": "Pistache",
-    "category": "Other Creators’ Work",
+    "category": "My other works",
     "subcategory": "Reference · by other creators",
     "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1aMKR4pT9UffGrlBNqa8aSUoGiF--jxGv&sz=w1200",
@@ -340,7 +340,7 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "1kxrefeh5rvoxeaukeguadcld7kyqzf-p",
     "title": "HelloBloom",
-    "category": "Other Creators’ Work",
+    "category": "My other works",
     "subcategory": "Reference · by other creators",
     "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1KXREfeh5RvoxeAuKEgUadCld7KYQZF_p&sz=w1200",
@@ -350,7 +350,7 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "1zwpftcs8119eazlajlsuyfswdvu8zfri",
     "title": "Organic Plant Protein",
-    "category": "Other Creators’ Work",
+    "category": "My other works",
     "subcategory": "Reference · by other creators",
     "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1zWpfTcS8119eazLAJLSUYFsWDvU8ZfRi&sz=w1200",
@@ -360,7 +360,7 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "1zrtrb0-f5h8evrhgm6u9nhbe7jy2-9nz",
     "title": "creepyskin",
-    "category": "Other Creators’ Work",
+    "category": "My other works",
     "subcategory": "Reference · by other creators",
     "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1ZRTrb0_F5h8eVrhgm6U9NHBE7Jy2_9nZ&sz=w1200",
@@ -370,7 +370,7 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "11kalqj3zjxo8xmfvt8b12u5mi5rl-cve",
     "title": "no edit casio",
-    "category": "Other Creators’ Work",
+    "category": "My other works",
     "subcategory": "Reference · by other creators",
     "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
     "thumbnail": "https://drive.google.com/thumbnail?id=11kalqj3zJxO8xMFvT8B12u5mI5rL_cVE&sz=w1200",
@@ -380,7 +380,7 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "1cekosi73f39hnx-cweobdrdys79hkaxq",
     "title": "no edit lotion",
-    "category": "Other Creators’ Work",
+    "category": "My other works",
     "subcategory": "Reference · by other creators",
     "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1CekOSi73F39hnX_cwEObdrdyS79hKaxQ&sz=w1200",
@@ -390,7 +390,7 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "1zqxlvsjaqm864ibe1wmzfo-ehsuhmhal",
     "title": "Levoria2",
-    "category": "Other Creators’ Work",
+    "category": "My other works",
     "subcategory": "Reference · by other creators",
     "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1zQxlVsJAqm864Ibe1WmzFO_EHSUHmHAL&sz=w1200",
@@ -400,7 +400,7 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "1qfxpxqym-0tpx5qr50d0gb4n2puujsiy",
     "title": "Levoria3",
-    "category": "Other Creators’ Work",
+    "category": "My other works",
     "subcategory": "Reference · by other creators",
     "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1qfXPXQyM_0TPX5qr50D0gB4n2PUUJsiy&sz=w1200",
@@ -410,7 +410,7 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "1pswrywpc2e2u05cuj1ppqvz8cfuc1k2x",
     "title": "Levoria1",
-    "category": "Other Creators’ Work",
+    "category": "My other works",
     "subcategory": "Reference · by other creators",
     "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1pSWRywPc2e2u05CUJ1ppqVz8CFUc1K2X&sz=w1200",
@@ -420,7 +420,7 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "1chn59faiuh5mtge92-gc0rzg2imoi36i",
     "title": "syrum",
-    "category": "Other Creators’ Work",
+    "category": "My other works",
     "subcategory": "Reference · by other creators",
     "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1chN59FaiUH5MtGE92_Gc0RZg2imOI36I&sz=w1200",
@@ -430,7 +430,7 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "1kpvks44tvhjxe-8neg-lm-htpluwnbqn",
     "title": "blockblaster2",
-    "category": "Other Creators’ Work",
+    "category": "My other works",
     "subcategory": "Reference · by other creators",
     "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1KpVKs44TvHJxE-8neG-Lm_htPlUWNBQn&sz=w1200",
@@ -440,7 +440,7 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "1vhkgidh9xy-ofakppqnasiy8sdckeavt",
     "title": "blockblaster1",
-    "category": "Other Creators’ Work",
+    "category": "My other works",
     "subcategory": "Reference · by other creators",
     "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1vHkgIDh9xy_OFAkPpqNASIY8SDckEAvT&sz=w1200",
@@ -450,7 +450,7 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "1j-fdzz561u6wehk9evt4lw-yej-p7fy9",
     "title": "test task",
-    "category": "Other Creators’ Work",
+    "category": "My other works",
     "subcategory": "Reference · by other creators",
     "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1j-FDzz561U6wEHK9EvT4LW_YEj_P7fy9&sz=w1200",
@@ -460,7 +460,7 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "1ngt7dxgg2zhetpfhouxh367qz3go3g8s",
     "title": "sunster2",
-    "category": "Other Creators’ Work",
+    "category": "My other works",
     "subcategory": "Reference · by other creators",
     "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1NGT7dXgg2ZHetpFHOuxh367qz3GO3g8S&sz=w1200",
@@ -470,7 +470,7 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "1pvo6yg6qbsfv4gdnj9fa-b4bl9gvbdhv",
     "title": "sunster",
-    "category": "Other Creators’ Work",
+    "category": "My other works",
     "subcategory": "Reference · by other creators",
     "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1pVo6yG6qBSfV4Gdnj9fa_b4BL9gVBdhv&sz=w1200",
@@ -480,7 +480,7 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "1y98a2f1w7jnyiyxqlkfxjosm5cesxjp0",
     "title": "Tired Of Acne",
-    "category": "Other Creators’ Work",
+    "category": "My other works",
     "subcategory": "Reference · by other creators",
     "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1Y98A2F1w7JnyIyxQlkfxJosM5cesXjP0&sz=w1200",
@@ -490,7 +490,7 @@ window.PORTFOLIO_PROJECTS = [
   {
     "id": "1e68cocvvuooz8p1ondyobnnipbcymnmv",
     "title": "Purely Optimal Vitamins",
-    "category": "Other Creators’ Work",
+    "category": "My other works",
     "subcategory": "Reference · by other creators",
     "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1E68CocVVuOOZ8P1onDYobnnIPBCYmNmV&sz=w1200",
@@ -513,7 +513,7 @@ window.PORTFOLIO_CATEGORIES = [
     "folder": "https://drive.google.com/drive/folders/1f4alTZP8Jz_gXYbbH4uyNhGN3fTh4YuQ?usp=drive_link"
   },
   {
-    "name": "Other Creators’ Work",
+    "name": "My other works",
     "folder": "https://drive.google.com/drive/folders/1DjJdG6AjItWjE4qEtwWRWqbzKHF7qyFJ?usp=sharing",
     "reference": true
   }
