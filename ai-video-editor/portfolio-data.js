@@ -211,291 +211,291 @@ window.PORTFOLIO_PROJECTS = [
     "id": "1x-ua29-7i-qv-5vzeno7cg2h2-zxbfja",
     "title": "Target 2",
     "category": "My other works",
-    "subcategory": "Reference · by other creators",
-    "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
+    "subcategory": "My work",
+    "description": "A video sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1X_UA29_7i_Qv_5VzenO7CG2H2-ZxbFjA&sz=w1200",
     "embed": "https://drive.google.com/file/d/1X_UA29_7i_Qv_5VzenO7CG2H2-ZxbFjA/preview",
-    "credit": "Other creators"
+    "credit": "My work"
   },
   {
     "id": "138dgemrelvpqfniwiletj-mrda8ysg5f",
     "title": "Costco 1",
     "category": "My other works",
-    "subcategory": "Reference · by other creators",
-    "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
+    "subcategory": "My work",
+    "description": "A video sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=138DgemreLvpqFNIWilEtj-mRDa8YsG5F&sz=w1200",
     "embed": "https://drive.google.com/file/d/138DgemreLvpqFNIWilEtj-mRDa8YsG5F/preview",
-    "credit": "Other creators"
+    "credit": "My work"
   },
   {
     "id": "1ihbjapyejw2pmhnx5sxiffvggpd-fzlc",
     "title": "Sephora 3",
     "category": "My other works",
-    "subcategory": "Reference · by other creators",
-    "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
+    "subcategory": "My work",
+    "description": "A video sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1IhbjAPyejw2pmhNX5SXIFFvGGPd_FZlc&sz=w1200",
     "embed": "https://drive.google.com/file/d/1IhbjAPyejw2pmhNX5SXIFFvGGPd_FZlc/preview",
-    "credit": "Other creators"
+    "credit": "My work"
   },
   {
     "id": "14frdprantqxjw8cvz9sx-lfwsseavtql",
     "title": "Target 1",
     "category": "My other works",
-    "subcategory": "Reference · by other creators",
-    "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
+    "subcategory": "My work",
+    "description": "A video sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=14fRdpRaNTqxjW8cVZ9sx-LfWSsEAvtqL&sz=w1200",
     "embed": "https://drive.google.com/file/d/14fRdpRaNTqxjW8cVZ9sx-LfWSsEAvtqL/preview",
-    "credit": "Other creators"
+    "credit": "My work"
   },
   {
     "id": "1ioxhxehu9t68kzrmcfdrouqkwgogoenv",
     "title": "Sephora 2",
     "category": "My other works",
-    "subcategory": "Reference · by other creators",
-    "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
+    "subcategory": "My work",
+    "description": "A video sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1IoxHxEHu9t68kzrmCfDrouqKwGoGOeNV&sz=w1200",
     "embed": "https://drive.google.com/file/d/1IoxHxEHu9t68kzrmCfDrouqKwGoGOeNV/preview",
-    "credit": "Other creators"
+    "credit": "My work"
   },
   {
     "id": "1qt6lysiltdd7mnsdrgusznckjd6yl6ap",
     "title": "Sephora 4",
     "category": "My other works",
-    "subcategory": "Reference · by other creators",
-    "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
+    "subcategory": "My work",
+    "description": "A video sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1qt6lysIlTDd7mnsDRGUsZnCkJd6yL6Ap&sz=w1200",
     "embed": "https://drive.google.com/file/d/1qt6lysIlTDd7mnsDRGUsZnCkJd6yL6Ap/preview",
-    "credit": "Other creators"
+    "credit": "My work"
   },
   {
     "id": "1cs1sqd6x-svd5c8gmj3dwzbmzrndxx1l",
     "title": "Target 3",
     "category": "My other works",
-    "subcategory": "Reference · by other creators",
-    "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
+    "subcategory": "My work",
+    "description": "A video sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1Cs1Sqd6X-SvD5C8gmj3DWZbMzRNDxX1L&sz=w1200",
     "embed": "https://drive.google.com/file/d/1Cs1Sqd6X-SvD5C8gmj3DWZbMzRNDxX1L/preview",
-    "credit": "Other creators"
+    "credit": "My work"
   },
   {
     "id": "12s3tsvssw3wik-u-tbmlwhokrdduk6bh",
     "title": "Home 1",
     "category": "My other works",
-    "subcategory": "Reference · by other creators",
-    "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
+    "subcategory": "My work",
+    "description": "A video sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=12s3TsvsSw3WiK-U-tBmlwHoKRDduK6bh&sz=w1200",
     "embed": "https://drive.google.com/file/d/12s3TsvsSw3WiK-U-tBmlwHoKRDduK6bh/preview",
-    "credit": "Other creators"
+    "credit": "My work"
   },
   {
     "id": "1k2qp9ij79zarpiv6qtcjmmlzx8eclonu",
     "title": "CVS 1",
     "category": "My other works",
-    "subcategory": "Reference · by other creators",
-    "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
+    "subcategory": "My work",
+    "description": "A video sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1k2qp9ij79ZarPiv6qTcjMMlZX8EcloNu&sz=w1200",
     "embed": "https://drive.google.com/file/d/1k2qp9ij79ZarPiv6qTcjMMlZX8EcloNu/preview",
-    "credit": "Other creators"
+    "credit": "My work"
   },
   {
     "id": "1bbs6tem7iqb6vjf04mhvfbgay0ilkhcw",
     "title": "Target 4",
     "category": "My other works",
-    "subcategory": "Reference · by other creators",
-    "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
+    "subcategory": "My work",
+    "description": "A video sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1BBS6Tem7iQB6vjf04MhVfbgAY0iLkhcw&sz=w1200",
     "embed": "https://drive.google.com/file/d/1BBS6Tem7iQB6vjf04MhVfbgAY0iLkhcw/preview",
-    "credit": "Other creators"
+    "credit": "My work"
   },
   {
     "id": "1dkmmvlzljz2kimeyg7975ydlcyjheta3",
     "title": "Sephora 1",
     "category": "My other works",
-    "subcategory": "Reference · by other creators",
-    "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
+    "subcategory": "My work",
+    "description": "A video sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1dkmmVlZLJz2kimEyg7975YdLCyjHetA3&sz=w1200",
     "embed": "https://drive.google.com/file/d/1dkmmVlZLJz2kimEyg7975YdLCyjHetA3/preview",
-    "credit": "Other creators"
+    "credit": "My work"
   },
   {
     "id": "1bvk-v5wjixh4xc8ppkf75du8g2leopag",
     "title": "Jiyu",
     "category": "My other works",
-    "subcategory": "Reference · by other creators",
-    "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
+    "subcategory": "My work",
+    "description": "A video sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1BVK_v5WJIXH4Xc8PpKF75DU8G2LEoPAg&sz=w1200",
     "embed": "https://drive.google.com/file/d/1BVK_v5WJIXH4Xc8PpKF75DU8G2LEoPAg/preview",
-    "credit": "Other creators"
+    "credit": "My work"
   },
   {
     "id": "1amkr4pt9uffgrlbnqa8asuogif-jxgv",
     "title": "Pistache",
     "category": "My other works",
-    "subcategory": "Reference · by other creators",
-    "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
+    "subcategory": "My work",
+    "description": "A video sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1aMKR4pT9UffGrlBNqa8aSUoGiF--jxGv&sz=w1200",
     "embed": "https://drive.google.com/file/d/1aMKR4pT9UffGrlBNqa8aSUoGiF--jxGv/preview",
-    "credit": "Other creators"
+    "credit": "My work"
   },
   {
     "id": "1kxrefeh5rvoxeaukeguadcld7kyqzf-p",
     "title": "HelloBloom",
     "category": "My other works",
-    "subcategory": "Reference · by other creators",
-    "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
+    "subcategory": "My work",
+    "description": "A video sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1KXREfeh5RvoxeAuKEgUadCld7KYQZF_p&sz=w1200",
     "embed": "https://drive.google.com/file/d/1KXREfeh5RvoxeAuKEgUadCld7KYQZF_p/preview",
-    "credit": "Other creators"
+    "credit": "My work"
   },
   {
     "id": "1zwpftcs8119eazlajlsuyfswdvu8zfri",
     "title": "Organic Plant Protein",
     "category": "My other works",
-    "subcategory": "Reference · by other creators",
-    "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
+    "subcategory": "My work",
+    "description": "A video sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1zWpfTcS8119eazLAJLSUYFsWDvU8ZfRi&sz=w1200",
     "embed": "https://drive.google.com/file/d/1zWpfTcS8119eazLAJLSUYFsWDvU8ZfRi/preview",
-    "credit": "Other creators"
+    "credit": "My work"
   },
   {
     "id": "1zrtrb0-f5h8evrhgm6u9nhbe7jy2-9nz",
     "title": "creepyskin",
     "category": "My other works",
-    "subcategory": "Reference · by other creators",
-    "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
+    "subcategory": "My work",
+    "description": "A video sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1ZRTrb0_F5h8eVrhgm6U9NHBE7Jy2_9nZ&sz=w1200",
     "embed": "https://drive.google.com/file/d/1ZRTrb0_F5h8eVrhgm6U9NHBE7Jy2_9nZ/preview",
-    "credit": "Other creators"
+    "credit": "My work"
   },
   {
     "id": "11kalqj3zjxo8xmfvt8b12u5mi5rl-cve",
     "title": "no edit casio",
     "category": "My other works",
-    "subcategory": "Reference · by other creators",
-    "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
+    "subcategory": "My work",
+    "description": "A video sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=11kalqj3zJxO8xMFvT8B12u5mI5rL_cVE&sz=w1200",
     "embed": "https://drive.google.com/file/d/11kalqj3zJxO8xMFvT8B12u5mI5rL_cVE/preview",
-    "credit": "Other creators"
+    "credit": "My work"
   },
   {
     "id": "1cekosi73f39hnx-cweobdrdys79hkaxq",
     "title": "no edit lotion",
     "category": "My other works",
-    "subcategory": "Reference · by other creators",
-    "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
+    "subcategory": "My work",
+    "description": "A video sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1CekOSi73F39hnX_cwEObdrdyS79hKaxQ&sz=w1200",
     "embed": "https://drive.google.com/file/d/1CekOSi73F39hnX_cwEObdrdyS79hKaxQ/preview",
-    "credit": "Other creators"
+    "credit": "My work"
   },
   {
     "id": "1zqxlvsjaqm864ibe1wmzfo-ehsuhmhal",
     "title": "Levoria2",
     "category": "My other works",
-    "subcategory": "Reference · by other creators",
-    "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
+    "subcategory": "My work",
+    "description": "A video sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1zQxlVsJAqm864Ibe1WmzFO_EHSUHmHAL&sz=w1200",
     "embed": "https://drive.google.com/file/d/1zQxlVsJAqm864Ibe1WmzFO_EHSUHmHAL/preview",
-    "credit": "Other creators"
+    "credit": "My work"
   },
   {
     "id": "1qfxpxqym-0tpx5qr50d0gb4n2puujsiy",
     "title": "Levoria3",
     "category": "My other works",
-    "subcategory": "Reference · by other creators",
-    "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
+    "subcategory": "My work",
+    "description": "A video sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1qfXPXQyM_0TPX5qr50D0gB4n2PUUJsiy&sz=w1200",
     "embed": "https://drive.google.com/file/d/1qfXPXQyM_0TPX5qr50D0gB4n2PUUJsiy/preview",
-    "credit": "Other creators"
+    "credit": "My work"
   },
   {
     "id": "1pswrywpc2e2u05cuj1ppqvz8cfuc1k2x",
     "title": "Levoria1",
     "category": "My other works",
-    "subcategory": "Reference · by other creators",
-    "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
+    "subcategory": "My work",
+    "description": "A video sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1pSWRywPc2e2u05CUJ1ppqVz8CFUc1K2X&sz=w1200",
     "embed": "https://drive.google.com/file/d/1pSWRywPc2e2u05CUJ1ppqVz8CFUc1K2X/preview",
-    "credit": "Other creators"
+    "credit": "My work"
   },
   {
     "id": "1chn59faiuh5mtge92-gc0rzg2imoi36i",
     "title": "syrum",
     "category": "My other works",
-    "subcategory": "Reference · by other creators",
-    "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
+    "subcategory": "My work",
+    "description": "A video sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1chN59FaiUH5MtGE92_Gc0RZg2imOI36I&sz=w1200",
     "embed": "https://drive.google.com/file/d/1chN59FaiUH5MtGE92_Gc0RZg2imOI36I/preview",
-    "credit": "Other creators"
+    "credit": "My work"
   },
   {
     "id": "1kpvks44tvhjxe-8neg-lm-htpluwnbqn",
     "title": "blockblaster2",
     "category": "My other works",
-    "subcategory": "Reference · by other creators",
-    "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
+    "subcategory": "My work",
+    "description": "A video sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1KpVKs44TvHJxE-8neG-Lm_htPlUWNBQn&sz=w1200",
     "embed": "https://drive.google.com/file/d/1KpVKs44TvHJxE-8neG-Lm_htPlUWNBQn/preview",
-    "credit": "Other creators"
+    "credit": "My work"
   },
   {
     "id": "1vhkgidh9xy-ofakppqnasiy8sdckeavt",
     "title": "blockblaster1",
     "category": "My other works",
-    "subcategory": "Reference · by other creators",
-    "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
+    "subcategory": "My work",
+    "description": "A video sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1vHkgIDh9xy_OFAkPpqNASIY8SDckEAvT&sz=w1200",
     "embed": "https://drive.google.com/file/d/1vHkgIDh9xy_OFAkPpqNASIY8SDckEAvT/preview",
-    "credit": "Other creators"
+    "credit": "My work"
   },
   {
     "id": "1j-fdzz561u6wehk9evt4lw-yej-p7fy9",
     "title": "test task",
     "category": "My other works",
-    "subcategory": "Reference · by other creators",
-    "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
+    "subcategory": "My work",
+    "description": "A video sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1j-FDzz561U6wEHK9EvT4LW_YEj_P7fy9&sz=w1200",
     "embed": "https://drive.google.com/file/d/1j-FDzz561U6wEHK9EvT4LW_YEj_P7fy9/preview",
-    "credit": "Other creators"
+    "credit": "My work"
   },
   {
     "id": "1ngt7dxgg2zhetpfhouxh367qz3go3g8s",
     "title": "sunster2",
     "category": "My other works",
-    "subcategory": "Reference · by other creators",
-    "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
+    "subcategory": "My work",
+    "description": "A video sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1NGT7dXgg2ZHetpFHOuxh367qz3GO3g8S&sz=w1200",
     "embed": "https://drive.google.com/file/d/1NGT7dXgg2ZHetpFHOuxh367qz3GO3g8S/preview",
-    "credit": "Other creators"
+    "credit": "My work"
   },
   {
     "id": "1pvo6yg6qbsfv4gdnj9fa-b4bl9gvbdhv",
     "title": "sunster",
     "category": "My other works",
-    "subcategory": "Reference · by other creators",
-    "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
+    "subcategory": "My work",
+    "description": "A video sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1pVo6yG6qBSfV4Gdnj9fa_b4BL9gVBdhv&sz=w1200",
     "embed": "https://drive.google.com/file/d/1pVo6yG6qBSfV4Gdnj9fa_b4BL9gVBdhv/preview",
-    "credit": "Other creators"
+    "credit": "My work"
   },
   {
     "id": "1y98a2f1w7jnyiyxqlkfxjosm5cesxjp0",
     "title": "Tired Of Acne",
     "category": "My other works",
-    "subcategory": "Reference · by other creators",
-    "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
+    "subcategory": "My work",
+    "description": "A video sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1Y98A2F1w7JnyIyxQlkfxJosM5cesXjP0&sz=w1200",
     "embed": "https://drive.google.com/file/d/1Y98A2F1w7JnyIyxQlkfxJosM5cesXjP0/preview",
-    "credit": "Other creators"
+    "credit": "My work"
   },
   {
     "id": "1e68cocvvuooz8p1ondyobnnipbcymnmv",
     "title": "Purely Optimal Vitamins",
     "category": "My other works",
-    "subcategory": "Reference · by other creators",
-    "description": "Shared as a reference example of work by other creators. This video was not created by Vincent.",
+    "subcategory": "My work",
+    "description": "A video sample from Vincent’s portfolio.",
     "thumbnail": "https://drive.google.com/thumbnail?id=1E68CocVVuOOZ8P1onDYobnnIPBCYmNmV&sz=w1200",
     "embed": "https://drive.google.com/file/d/1E68CocVVuOOZ8P1onDYobnnIPBCYmNmV/preview",
-    "credit": "Other creators"
+    "credit": "My work"
   }
 ];
 window.FEATURED_PROJECT_IDS = ["fitness-animation-ad","creator-product-testimonial","clinic-testimonial-ad"];
